@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="share.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="audio-video-link.html">Video</a></li>
+            <li><a href="table.html">Table</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Fill up the form</h2>
+            <form action="">
+                <label for="name">Your Name:
+                    <input type="text" name="" id="name" placeholder="Name">
+                </label>
+                <label for="email">Your Email:
+                    <input type="email" name="" id="email" placeholder="Email">
+                </label>
+                <label for="phone">Your Phone:
+                    <input type="number" name="" id="phone" placeholder="Phone No">
+                </label>
+                <fieldset>
+                    <legend>Pick On Pitha</legend>
+                    <label for="citoy">
+                        <input type="radio" name="pitha" id="citoy">Citoy
+                    </label>
+                    <label for="vapa">
+                        <input type="radio" name="pitha" id="vapa">Vapa
+                    </label>
+                    <label for="Piaju">
+                        <input type="radio" name="pitha" id="Piaju">Piaju
+                    </label>
+                    <!-- duita option select korate hole name alda alda dite hobe -->
+                </fieldset>
+                <fieldset>
+                    <legend>Pick On More Vorta</legend>
+                    <label for="ciliy">
+                        <input type="checkbox" name="vorta" id="ciliy">Ciliy Vorta
+                    </label>
+                    <label for="sutki">
+                        <input type="checkbox" name="vorta" id="vapa">Sutki Vorta
+                    </label>
+                    <label for="til">
+                        <input type="checkbox" name="sutki" id="til">Til Vorta
+                    </label>
+                    <!-- duita option select korate hole name alda alda dite hobe -->
+                </fieldset>
+                <fieldset>
+                    <legend>Special Instruction</legend>
+                    <textarea name="" id="" cols="30" rows="1"></textarea>
+                </fieldset>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

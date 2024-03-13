@@ -1,0 +1,7 @@
+task-1: 
+task-2: you have been invited to design a feedback form for a storytelling contest. Implement a textarea field where participents can share their stories.
+1 Add attributes like rows and cols. 
+2 Create a dropdown menu using the <select> and <option> tags to allow participants to rate (Good, excellent etc) the stories.
+3 Add labels for each field. 
+4 Add a submit button    
+task-3: table

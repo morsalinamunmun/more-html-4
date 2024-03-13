@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav > ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 5px;
+}
+nav li > a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    font-weight: 600;
+}
+nav li:hover{
+    background-color: lightgray;
+}
+ nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: beige;
+}
+nav li:hover .dropdown{
+    display: block;
+}
